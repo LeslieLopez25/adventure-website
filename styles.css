@@ -134,7 +134,7 @@ img {
 }
 
 /* MENU JAVASCRIPT STYLES */
-.menu-menu-opened {
+.menu.menu-opened {
     top: 10rem;
 }
 
@@ -152,7 +152,7 @@ img {
     transition: opacity .5s;
 }
 
-.menu.opened.header::after {
+.menu-opened.header::after {
     opacity: 1;
     transform: scale(1);
 }
